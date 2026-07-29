@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "title": "Spotify",
+      "url": "https://open.spotify.com/",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "title": "YouTube",
+      "url": "https://youtube.com/@soloesadri",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "title": "Instagram",
+      "url": "https://instagram.com/silviiaanavarro__",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "title": "TikTok",
+      "url": "https://tiktok.com/",
+      "visible": true,
+      "order": 4
+    }
+  ]
+}
