@@ -6,15 +6,16 @@
     <title>soloesAdri | Links</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
     <main class="container">
         <header class="profile-header">
             <div class="profile-pic"></div>
             <h1>soloesAdri</h1>
-            <p>Música, mates y vibes 🎶✨</p>
+            <p>Música y vibes 🎶✨</p>
         </header>
         <section class="links-container">
             <a href="#" class="link-btn">Spotify</a>
@@ -24,5 +25,16 @@
         </section>
     </main>
     <script src="js/main.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
 </body>
 </html>
