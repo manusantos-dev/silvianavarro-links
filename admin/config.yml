@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: manusantos-dev/soloesadri
+  name: git-gateway
   branch: main
 
 media_folder: "assets/images"
@@ -9,21 +8,27 @@ public_folder: "/assets/images"
 collections:
   - name: "settings"
     label: "Profile Settings"
-    file: "data/profile.json"
-    fields:
-      - {label: "Username", name: "username", widget: "string"}
-      - {label: "Biography", name: "bio", widget: "string"}
-      - {label: "Avatar", name: "avatar", widget: "image", required: false}
-
-  - name: "links"
-    label: "Social Links"
-    file: "data/links.json"
-    fields:
-      - label: "Links"
-        name: "links"
-        widget: "list"
+    files:
+      - label: "Profile"
+        name: "profile"
+        file: "data/profile.json"
         fields:
-          - {label: "Platform Name", name: "title", widget: "string"}
-          - {label: "URL", name: "url", widget: "string"}
-          - {label: "Visible", name: "visible", widget: "boolean", default: true}
-          - {label: "Order", name: "order", widget: "number", default: 0}
+          - {label: "Username", name: "username", widget: "string"}
+          - {label: "Biography", name: "bio", widget: "string"}
+          - {label: "Avatar", name: "avatar", widget: "image", required: false}
+
+  - name: "links_collection"
+    label: "Social Links"
+    files:
+      - label: "Links"
+        name: "links_data"
+        file: "data/links.json"
+        fields:
+          - label: "Links"
+            name: "links"
+            widget: "list"
+            fields:
+              - {label: "Platform Name", name: "title", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Visible", name: "visible", widget: "boolean", default: true}
+              - {label: "Order", name: "order", widget: "number", default: 0}
