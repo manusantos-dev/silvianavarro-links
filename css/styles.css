@@ -20,10 +20,11 @@ body {
     content: ''; position: absolute;
     top: 0; left: 0; right: 0; height: 130px;
     background-color: #ffffff;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><path fill="%238f0013" d="M15 11c-2.8-5.7-12-4.1-12 3.3 0 7.3 9.9 10.9 12 15.3 2.1-4.4 12-8 12-15.3 0-7.4-9.2-9-12-3.3z"/><path fill="%238f0013" d="M45 42l-10-7v14z"/><path fill="%238f0013" d="M45 42l10-7v14z"/><circle cx="45" cy="42" r="4" fill="%238f0013"/></svg>');
-    background-size: 60px 60px; z-index: 0;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 80 80"><path fill="%238f0013" d="M20 10c-3.5-7-14-5-14 4 0 9 12 13 14 19 2-6 14-10 14-19 0-9-10.5-11-14-4z M60 50c-3.5-7-14-5-14 4 0 9 12 13 14 19 2-6 14-10 14-19 0-9-10.5-11-14-4z M60 20 Q45 5 40 20 Q45 35 60 20 M60 20 Q75 5 80 20 Q75 35 60 20 M58 20 L45 35 L54 35 Z M62 20 L75 35 L66 35 Z M20 60 Q5 45 0 60 Q5 75 20 60 M20 60 Q35 45 40 60 Q35 75 20 60 M18 60 L5 75 L14 75 Z M22 60 L35 75 L26 75 Z"/><rect x="57" y="17" width="6" height="6" rx="2" fill="%238f0013"/><rect x="17" y="57" width="6" height="6" rx="2" fill="%238f0013"/></svg>');
+    background-size: 90px 90px;
+    background-position: center 15px;
+    z-index: 0;
     border-bottom: 2px solid rgba(143, 0, 19, 0.15);
-    border-radius: 29px 29px 0 0;
 }
 .profile-header, .links-container { position: relative; z-index: 1; }
 
