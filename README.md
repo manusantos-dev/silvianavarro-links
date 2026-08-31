@@ -46,7 +46,7 @@ This repository contains a bespoke, cinematic link-in-bio website designed for a
   <em>Coded with the Y2K style my friend wanted and having spent all the credits (sorry friend, you ran out of web for a month).</em>
 </div>
 
----
+<br><br>
 
 <h2 id="español">🇪🇸 Español</h2>
 
