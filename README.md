@@ -4,10 +4,10 @@
 
 <br>
 
-# 🎬 Cinematic Artist Launch Funnel & Link-in-Bio
+# 🎬 Cinematic Narrative Portfolio & Link-in-Bio
 
 > **A link-in-bio, but make it a cinematic experience.**
-> A bespoke, scroll-snapping visual storytelling funnel for an emerging musician. Built with Vanilla web tech and powered by an expanded Headless CMS.
+> A bespoke, scroll-snapping narrative portfolio for an emerging musician. Built with Vanilla web tech and powered by an expanded Headless CMS.
 
 <br>
 
@@ -30,7 +30,7 @@
 ### 🍿 The Origin Story
 Standard link-in-bio tools are boring. My friend Silvia Navarro needed a launchpad for her new musical era. Instead of settling for a generic template or paying a premium subscription just to change a background color, I decided to code her a bespoke web experience from scratch.
 
-The project evolved from a simple Y2K aesthetic into a full visual funnel. The goal: capture the hype of a new release using a magnetic scroll-snap layout that transitions from a video manifesto, to her links, into a dynamic polaroid collage, and ends with a powerful call-to-action. Most importantly, it allows her to update her own videos, photos, and copy in the future without having to call me or learn HTML. 
+The project evolved from a simple Y2K aesthetic into a full narrative portfolio. The goal: capture the hype of a new release using a magnetic scroll-snap layout that transitions from a video manifesto, to her links, into a dynamic polaroid collage, and ends with a powerful call-to-action. Most importantly, it allows her to update her own videos, photos, and copy in the future without having to call me or learn HTML. 
 
 > **🤖 Transparency Note (or "How I built this without losing my mind")**
 > Just like my previous projects, this is the result of focused *vibe coding*. I provided the architectural decisions, designed the mathematical CSS scaling and tunnel-lighting gradients, set up the Netlify Identity/Git Gateway integrations, and acted as the Art Director. My AI assistant handled the heavy syntax lifting. If you know what you want and how to ask for it, you can build a full-stack integrated site in record time.
@@ -56,7 +56,7 @@ Check out the cinematic experience here:
 
 This is an open-source personal project made to help an artist share their music with style. 
 
-Have you found a bug? Want to use this template for your own CMS-powered launch funnel? Feel free to fork the repo, open an issue, or reach out. 
+Have you found a bug? Want to use this template for your own CMS-powered narrative portfolio? Feel free to fork the repo, open an issue, or reach out. 
 
 ---
 
@@ -68,10 +68,10 @@ Have you found a bug? Want to use this template for your own CMS-powered launch 
 
 <div align="center">
   
-<h1 id="español">🎬 Embudo Cinematográfico y Link-in-Bio</h1>
+<h1 id="español">🎬 Portfolio Narrativo y Link-in-Bio</h1>
 
 > **Un link-in-bio, pero convertido en experiencia cinematográfica.**
-> Un embudo narrativo visual con *scroll* magnético diseñado a medida para una artista emergente. Construido con tecnología web Vanilla y gestionado por un CMS Headless expandido.
+> Un portfolio narrativo visual con *scroll* magnético diseñado a medida para una artista emergente. Construido con tecnología web Vanilla y gestionado por un CMS Headless expandido.
 
 🌍 **Leer en otros idiomas:** <a href="#english">English</a> | <a href="#español">Español</a>
 
@@ -88,7 +88,7 @@ Have you found a bug? Want to use this template for your own CMS-powered launch 
 ### 🍿 La verdadera historia
 Las herramientas estándar de *link-in-bio* son aburridas. Mi amiga Silvia Navarro necesitaba una plataforma de lanzamiento para su nueva era musical. En lugar de conformarse con una plantilla genérica o pagar una suscripción mensual solo para cambiar un color de fondo, decidí programarle una experiencia web a medida desde cero.
 
-El proyecto evolucionó de una simple estética Y2K a un embudo visual completo. El objetivo: capturar la expectación de un nuevo lanzamiento utilizando un diseño de *scroll* magnético que transiciona desde un vídeo manifiesto, a sus enlaces, pasando por un collage de polaroids dinámico, hasta un potente cierre. Y lo más importante, permitirle actualizar sus propios vídeos, fotos y textos en el futuro sin tener que llamarme ni aprender HTML.
+El proyecto evolucionó de una simple estética Y2K a un portfolio narrativo completo. El objetivo: capturar la expectación de un nuevo lanzamiento utilizando un diseño de *scroll* magnético que transiciona desde un vídeo manifiesto, a sus enlaces, pasando por un collage de polaroids dinámico, hasta un potente cierre. Y lo más importante, permitirle actualizar sus propios vídeos, fotos y textos en el futuro sin tener que llamarme ni aprender HTML.
 
 > **🤖 Nota de transparencia (o "Cómo construí esto sin volverme loco")**
 > Al igual que en mis proyectos anteriores, este es el resultado de mucho *vibe coding*. Yo tomé las decisiones arquitectónicas, diseñé el escalado matemático en CSS y los degradados de iluminación en túnel, configuré las integraciones de Netlify Identity/Git Gateway, y actué como Director de Arte. Mi asistente de Inteligencia Artificial se encargó de teclear la sintaxis pesada. Si sabes lo que quieres y cómo pedirlo, puedes montar un sitio *full-stack* en un tiempo récord.
@@ -114,7 +114,7 @@ Construido sin *frameworks* pesados de UI, apostando por un diseño CSS3 impecab
 
 Este es un proyecto personal de código abierto creado para ayudar a una artista a compartir su música con estilo.
 
-¿Has encontrado un fallo? ¿Quieres usar esta plantilla para crear tu propio embudo de lanzamiento autogestionable? Siéntete libre de hacer un *fork* del repositorio, abrir un *issue* o contactarme. 
+¿Has encontrado un fallo? ¿Quieres usar esta plantilla para crear tu propio portfolio narrativo autogestionable? Siéntete libre de hacer un *fork* del repositorio, abrir un *issue* o contactarme. 
 
 ---
 
