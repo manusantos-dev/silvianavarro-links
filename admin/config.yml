@@ -1,24 +1,30 @@
 backend:
   name: git-gateway
   branch: main
-
 media_folder: "assets/images"
 public_folder: "/assets/images"
-
 collections:
   - name: "settings"
-    label: "Profile Settings"
+    label: "Textos y Perfil"
     files:
-      - label: "Profile"
+      - label: "Contenido de la Web"
         name: "profile"
         file: "data/profile.json"
         fields:
-          - {label: "Username", name: "username", widget: "string"}
-          - {label: "Biography", name: "bio", widget: "string"}
+          - {label: "Vídeo Fondo", name: "bg_video", widget: "file", required: false}
+          - {label: "Vídeo Tráiler", name: "manifesto_video", widget: "file", required: false}
+          - {label: "Título del Vídeo", name: "video_title", widget: "string", default: "3, 2, 1 ..."}
+          - {label: "Subtítulo del Vídeo", name: "video_subtitle", widget: "string", default: "¿Listos?"}
+          - {label: "Nombre (Centro)", name: "name", widget: "string"}
+          - {label: "Biografía (Centro)", name: "bio", widget: "string"}
           - {label: "Avatar", name: "avatar", widget: "image", required: false}
-
+          - {label: "Collage 1 (Origen)", name: "collage_1", widget: "image", required: false}
+          - {label: "Collage 2 (Mudanza)", name: "collage_2", widget: "image", required: false}
+          - {label: "Foto Cierre", name: "photo_cierre", widget: "image", required: false}
+          - {label: "Título de la Foto Final", name: "photo_title", widget: "string", default: "Esto es solo el comienzo"}
+          - {label: "Subtítulo de la Foto Final", name: "photo_subtitle", widget: "string", default: "¿Te apuntas?"}
   - name: "links_collection"
-    label: "Social Links"
+    label: "Enlaces Sociales"
     files:
       - label: "Links"
         name: "links_data"

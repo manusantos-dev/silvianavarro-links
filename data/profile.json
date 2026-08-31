@@ -1,5 +1,14 @@
 {
-  "username": "soloesAdri",
-  "bio": "Música y vibes 🎶✨",
-  "avatar": "/assets/images/avatar.jpg"
+  "name": "Silvia Navarro",
+  "bio": "Bienvenidos a mi nueva era 🎶✨",
+  "avatar": "assets/images/avatar.jpg",
+  "bg_video": "assets/video/background-1.MOV",
+  "manifesto_video": "assets/video/manifiesto-silvia.mp4",
+  "collage_1": "assets/images/origen-malaga.jpeg",
+  "collage_2": "assets/images/maletas-mudanza.jpeg",
+  "photo_cierre": "assets/images/espera-puerta.jpeg",
+  "video_title": "3, 2, 1 ...",
+  "video_subtitle": "¿Listos?",
+  "photo_title": "Esto es solo el comienzo",
+  "photo_subtitle": "¿Te apuntas?"
 }
