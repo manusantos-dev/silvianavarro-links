@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/Banner.png" alt="Y2K Coquette Banner" width="100%">
+<img src="assets/images/banner.png" alt="Y2K Coquette Banner" width="100%">
 
 <br>
 
